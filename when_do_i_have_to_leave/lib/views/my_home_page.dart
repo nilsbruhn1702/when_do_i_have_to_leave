@@ -1,5 +1,4 @@
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/material.dart';
 import 'package:when_do_i_have_to_leave/services/get_time_until_arrival.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -18,6 +17,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      decoration: const BoxDecoration(color: Colors.green),
+    );
   }
 }
